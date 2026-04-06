@@ -1,115 +1,116 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html><html lang="pt-BR">
 <head>
-  <title>Portfólio Individual</title>
-</head>
-<body>
-  <header>
-    <h1>Malecama<p></p>Kaka Eduardo António</h1>
-    <div class="container">
-  <img src="Male.jpg" alt="Malecama K. E. António" class="imagem-perfil">
-</div>
-
-  </header>
-  <div>
-  <p>Endereço: Mulenvos, Luanda, Angola</p>
-    <p>Contacto: +244 972 414 633/ 953 410 311</p>
-    <p>E-mail: malecamakakaeduardo@gamil.com</p>
-  </div>
-  <ol>
-    <p></p>
-    <p></p>
-    <p style="color: blue"><big><big><strong>Técnico Médio de Informática de Gestão</strong></big></big></p>
-  </ol>
-  <p></p>
-    <h4><big><big>Experiência Profissional</big></big></h4>
-    <ul>
-        <ul>
-          <li>
-          <li>Desenvolvimento de aplicações web com HTML, CSS e JavaScript.</li>
-          <li>Design de interfaces de usuário responsivas.</li>
-        </ul>
-      </li>
-      <li>
-        <ul>
-          <li>Estagiário na F'DA MATA
-</li>
-          <li>Criação de materiais de marketing e publicidade.</li>
-          <li>Desenvolvimento de identidade visual para clientes.</li>
-        </ul>
-      </li>
-    </ul>
-    <h2>Qualidades</h2>
-    <ol>
-      <li>Análista de Base de Dados</li>
-      <li>Analista de Sistemas</li>
-    </ol>
-  <h2>Sobre Mim</h2>
-  <ol>
-  <p>Sério, comprometido com o trabalho , fácil ambientação com o mercado de trabalho, colegas  e levando sempre o FOFA e o clean desk no mundo de trabalho;</p> 
-    <p>Gosto de aprender com outros, pois ninguém nesse mundo nasce sábio, adoro trabalhar  em equipe, entrando em sintonia com os demais cumprindo assim com as demandas do nosso trabalho</p>
-    <p>Tenho plena visão com as metas da empresa.Vejo está vaga como uma oportunidade de  colocar em prática as minhas habilidades exercidas segundo a minha formação.</p>
-</ol>
-    <h2>Habilidades</h2>
-    <ol>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-      <li>Excel</li>
-    </ol>
-  <footer style="background: black">
-    <img src="D.png" width="100% auto" height="100px auto">
-  </footer>
-  
-<style>
-body {
-  font-family: Arial, sans-serif;
-  margin: 20px;
-  width: 100℅ auto;
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Portfólio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }body {
+  background: #0f172a;
+  color: #e2e8f0;
 }
 
 header {
-  background-color: gray;
-  padding: 30px;
-  border-bottom: 1px solid #ccc;
- width: 100px auto; 
-}
-.imagem-perfil {
-  position: absolute;
-  top: 30px;
-  right: 20px;
-  width: 120px;
-  height: 120px;
-  border-radius: 100%;
-  object-fit: discovery;
+  background: #1e293b;
+  padding: 20px;
+  text-align: center;
 }
 
-h1 {
-  color: black;
+header h1 {
+  font-size: 2rem;
 }
 
-h2 {
-  color: black;
+nav {
+  margin-top: 10px;
 }
 
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-li {
-  margin-bottom: 20px;
-}
-
-a {
+nav a {
+  color: #38bdf8;
+  margin: 0 10px;
   text-decoration: none;
-  color: #337ab7;
 }
 
-a:hover {
-  color: #23527c;
+section {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
 }
-</style>
- </body>
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #1e293b;
+  margin-top: 40px;
+}
+
+  </style>
+</head>
+<body> 
+  <div class="header">
+  <header>
+    <img src="Male.jpg" alt="Malecama Kaka Eduardo" width="200px" height="200">
+    <h1><strong><strong>Olá só o Malecama!</strong></strong></h1>
+    <p>Desenvolvedor Web</p>
+    <nav>
+      <a href="#about">Sobre</a>
+      <a href="#projects">Projetos</a>
+      <a href="#contact">Contato</a>
+    </nav>
+  </header> 
+  </div>
+    <section id="about">
+    <h2>Sobre Mim</h2>
+    <p>Olá! So um tecnico médio formado na área de informática de gestão na escola mãe conhecida como EMAG.
+      Profissional em experiência em desenvolvivemento web e design gráfico.
+      Tenho experiência na criação de design de interface de usuario responsivas,
+       experiênti na criação de matérias de marketing e publicidade,
+      e desenvolvedor de identidade visual para clientes.
+      Antes de ser formado nesta mesma área de Informática tecnica de gestão,tambem passei em varios processos de aprendizado como : 
+      Carpintaria, e Ladrilho.
+      
+  
+    </p>
+  </section>  <section id="projects">
+    <h2>Projetos</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Projeto 1</h3>
+        <p>Criação de um sistema digital para o controle de bens materias em pequenas empresa.</p>
+      </div>
+      <div class="card">
+        <h3>Projeto 2</h3>
+        <p>Montagem de guarda fatos,sapateira, cómodas, armários de cozinhas , raquer  e partileiras para farmácias.</p>
+      </div>
+      <div class="card">
+        <h3>Projeto 3</h3>
+        <p>Aplicação de mosaico, stuq.</p>
+      </div>
+    </div>
+  </section>  <section id="contact">
+    <h2>Contacto:972414633</h2>
+    <p>Email: malecamaeduardoantónio@email.com</p>
+  </section>  <footer>
+    <p>© 2026 - Malecama kaka Eduardo António</p>
+  </footer></body>
 </html>
